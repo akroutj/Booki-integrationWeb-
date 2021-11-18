@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,400&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box; 
+}
+
+#bloc_page {
+    margin: 20px 30px;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo {
+    height: 80px;
+    margin-right: auto;
+    
+}
+
+.euros{
+    font-style: bold;
+}
+
+/*------NAV-----------------------------------------------------------------------*/
+
+nav {
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    
+}
+
+ul {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 30px;
+}
+
+nav li a:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 38px;
+}
+
+
+
+/*------TITLE-----------------------------------------------------------------------*/
+
+h2 {
+    margin-bottom: 5px;
+}
+
+/*------SEARCHBAR-----------------------------------------------------------------------*/
+
+.search_bar {
+    margin-top: 20px;
+    height: 40px;
+    align-items: center;
+}
+
+.container_marker {
+    background-color: #f2f2f2;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.search_input {
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    border-radius: 0px;
+}
+
+.search_button {
+    height: 40px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    color: #f2f2f2;
+   
+}
+
+/*------FILTERS-----------------------------------------------------------------------*/
+
+.filters {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter_box {
+    margin-left: 0px;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.text {
+    padding: 10px;
+}
+
+.filter_box i {
+    display: inline-block;
+    background-color: #deebff;
+    border-radius: 50%;
+    padding: 10px;
+    color: #0065FC;
+}
+
+/*------INFO-----------------------------------------------------------------------*/
+
+.info_box {
+    align-items: center;
+}
+
+.info_box span {
+    margin-left: 10px;
+}
+.info_icon {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    color: #0065FC;
+}
+
+/*------ACCOMODATION-----------------------------------------------------------------------*/
+
+/*------HOTEL-----------------------------------------------------------------------*/
+
+.hotels, .popular{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 0px 40px 0px 40px;
+    margin-top: 30px;
+}
+
+.popular {
+    margin-left: 30px;
+}
+
+.hotels_cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accomodation_box {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-template-columns: 65%;
+    gap: 30px;
+    margin: 30px 0 50px;
+}
+.accomodation_box h2 {
+    padding: 0px;
+}
+
+.hotels{
+    flex: 2;
+}
+
+.hotel_card {
+    display: grid;
+    height: 220px;
+    width: 300px;
+    grid-template-rows: 60%;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
+.card_image > img {
+    object-fit: cover;
+}
+
+ .hotel_description {
+     flex-direction: column;
+     background-color: #fff;
+     padding: 0;
+ }
+
+ .hotel_name, p, .hotel_rate {
+     margin-top: 10px;
+     margin-bottom: 0px;
+     padding-left: 10px;
+ }
+
+ /*------POPULAR-----------------------------------------------------------------------*/
+
+ .popular_title {
+     align-items: baseline ;
+     justify-content: space-between;
+ }
+
+ .popular {
+     flex: 2;
+ }
+
+ .popular_card {
+    height: 145px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 7px #c1c1c1;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.popular_card img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular_description {
+    flex: 1;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #bloc_page {
+        width: auto;
+        margin: auto;
+    }
+    
+    
+    #logo {
+        margin: auto;
+    }
+    
+
+    nav { 
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+    
+    nav li {
+        width: 50%;
+        padding: auto;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 30px;
+    }
+
+    nav ul li:hover {
+        border-top: transparent;
+        border-bottom-color: #0065FC;
+        padding-bottom: 15px;
+    }
+
+    nav ul li a:hover {
+        border-top: transparent;
+    }
+}

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Booki</title>
+
+    <script src="https://kit.fontawesome.com/fd74157818.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="bloc_page">
+
+        <!-----------------------------HEADER--------------------------------->
+
+        <header class="flex">
+
+            <img id='logo' src="images\logo\Booki@3x.png" alt="booky">
+            <nav>
+                <ul class="flex">
+                    <li><a href="#accomadationAnchor">Hérbergements</a></li>
+                    <li><a href="#activityAnchor">Activités</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-------------------------SEARCH---------------------------------->
+
+        <div class="search">
+
+            <h2 class="title">Trouvez votre hébergement pour des vacances de rêve</h2>
+            <span class="subtitle">En plein centre ville ou en pleine nature</span>
+
+            <form class="search_bar flex" action="#" method="get">
+                <div class="container_marker flex">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <input type="search" class="search_input" placeholder="Marseille, France">
+                <button class="search_button">
+                    <span>Rechercher</span>
+                </button>
+            </form>
+
+            <div class="filters flex">
+
+                <h3>Filtres</h3>
+
+                <span class="filter_box">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span class="text">
+                        Économique
+                    </span>
+                </span>
+                <span class="filter_box">
+                    <i class="fas fa-child"></i>
+                    <span class="text">
+                        Familial
+                    </span>
+                </span>
+                <span class="filter_box">
+                    <i class="fas fa-heart"></i>
+                    <span class="text">
+                        Romantique
+                    </span>
+                </span>
+                <span class="filter_box">
+                    <i class="fas fa-dog"></i>
+                    <span class="text">
+                        Animaux autorisés
+                    </span>
+                </span>
+            </div>
+
+            <div class="info_box flex">
+                <div class="info_icon">
+                    <i class="fas fa-info"></i>
+                </div>
+                <span>Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
+
+        </div>
+
+        <!------------------------ACCOMMODATION------------------------------->
+
+        <div class="accomodation_box flex">
+
+            <section class="hotels">
+                <h2>Hebergements à Marseille</h2>
+
+                <div class="hotels_cards">
+
+                    <a href="#">
+                        <article class="hotel_card">
+                            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Chambre auberge La Cannebière">
+                            <div class="hotel_description flex">
+                                <h3 class="hotel_name">Auberge la Cannebière</h3>
+                                <p>Nuit à partir de <span class="euros">25€</span></p>
+                                <div class="hotel_rate">
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star greyStar"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="hotel_card">
+                            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Chambre auberge La Cannebière">
+                            <div class="hotel_description flex">
+                                <h3 class="hotel_name">Auberge la Cannebière</h3>
+                                <p>Nuit à partir de <span class="euros">25€</span></p>
+                                <div class="hotel_rate">
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star greyStar"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="hotel_card">
+                            <img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="Chambre auberge La Cannebière">
+                            <div class="hotel_description flex">
+                                <h3 class="hotel_name">Auberge la Cannebière</h3>
+                                <p>Nuit à partir de <span class="euros">25€</span></p>
+                                <div class="hotel_rate">
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star greyStar"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                </div>
+
+            </section>
+
+            <artcile class="popular ">
+
+                <div class="popular_title flex">
+                    <h2>Les plus populaires</h2>
+                    <i class="fas fa-chart-line"></i>
+                </div>
+
+                <div class="popular_cards">
+
+                    <a href="#">
+                        <article class="popular_card flex">
+                            <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hotel soleil du matin chambre verte">
+                            <div class="popular_description flex">
+                                <div>
+                                    <h3 class="hotel_name">Hôtel Le soleil du matin</h3>
+                                    <p>Nuit à partir de 128<span class="euros">€</span></p>
+                                </div>
+                                <div class="hotel_rate">
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="popular_card flex">
+                            <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hotel soleil du matin chambre verte">
+                            <div class="popular_description flex">
+                                <div>
+                                    <h3 class="hotel_name">Hôtel Le soleil du matin</h3>
+                                    <p>Nuit à partir de 128<span class="euros">€</span></p>
+                                </div>
+                                <div class="hotel_rate">
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="#">
+                        <article class="popular_card flex">
+                            <img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hotel soleil du matin chambre verte">
+                            <div class="popular_description flex">
+                                <div>
+                                    <h3 class="hotel_name">Hôtel Le soleil du matin</h3>
+                                    <p>Nuit à partir de 128<span class="euros">€</span></p>
+                                </div>
+                                <div class="hotel_rate">
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                    <i class="fas fa-star blueStar"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+
+            </artcile>
+
+
+        </div>
+
+
+
+
+    </div>
+</body>
