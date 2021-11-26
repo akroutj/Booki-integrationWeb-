@@ -1,0 +1,22 @@
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bloc-page {
+    padding: 20px 30px 10px 30px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.euros{
+    font-style: bold;
+}

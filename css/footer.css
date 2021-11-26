@@ -1,0 +1,22 @@
+
+footer{
+    padding: 40px 50px 50px;
+    background-color: var(--grey);
+    margin-bottom: 20px;
+}
+
+footer > * {
+    flex-basis: 100%;
+}
+
+footer a {
+    padding-left: 0px;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer a:hover{
+    color: var(--blue);
+}

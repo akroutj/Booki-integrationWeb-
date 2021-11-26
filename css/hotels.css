@@ -1,0 +1,61 @@
+
+.hotel-name, p, .hotel_rate {
+    margin: 0px;
+}
+
+.hotels {
+    width: 66%;
+}
+
+.hotels h2 {
+    margin-bottom: 30px;
+}
+
+.hotels-box {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 45px;
+}
+
+.hotels-box a{
+    padding: 0px;
+    
+}
+
+.hotel-card {
+    display: grid;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 5px solid var(--white);
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--lightgrey);
+}
+
+.hotel-card img {
+    width: 100%;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 7px;
+}
+
+.hotel-description {
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.hotel-description p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.hotel-card:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#see-more {
+    font-weight: bold;
+    padding: 0;
+}

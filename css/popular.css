@@ -1,0 +1,57 @@
+
+.popular {
+    width: 33%;
+    flex-direction: column;  
+}
+
+.popular h2 {
+    margin-bottom: 30px;
+}
+
+.popular-box {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.popular-title {
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.popular-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
+    background-color: var(--white);
+    box-shadow: 5px 5px 10px var(--lightgrey);
+    overflow: hidden;
+}
+
+
+
+.popular-card img {
+   border-radius: 15px 0px 0px 15px;
+   width: 100%;
+   object-fit: cover;
+
+}
+
+.popular-description {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.popular-description .hotel-name {
+    padding-bottom: 10px;
+}
+
+.popular-description p {
+    margin-bottom: 35px;
+}
+
+.popular-card:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}

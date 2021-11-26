@@ -1,0 +1,18 @@
+
+.info-box {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-box span {
+    margin-left: 10px;
+}
+.info-icon {
+    border: 1px solid var(--lightgrey);
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--blue);
+}

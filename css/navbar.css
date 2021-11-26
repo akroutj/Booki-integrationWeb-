@@ -1,0 +1,24 @@
+  
+nav {
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    
+}
+
+ul {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 30px;
+}
+
+nav li a:hover {
+    color: var(--blue);
+    border-top: 2px solid var(--blue);
+    padding-top: 38px;
+}

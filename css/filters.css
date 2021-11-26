@@ -1,0 +1,38 @@
+
+.filters {
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filters h3 {
+    margin: 0px;
+}
+
+.filter-box {
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.filter-text {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.filter-box i {
+    background-color: var(--lightblue);
+    border-radius: 50%;
+    padding: 10px;
+    margin: -1px;
+    color: var(--blue);
+}
+
+.filter-box:hover {
+   color: var(--blue);
+   transform: scale(1.05);
+   transition: 0.2s;
+}

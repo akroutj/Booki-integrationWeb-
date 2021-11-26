@@ -1,0 +1,19 @@
+
+.accomodation-box {
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+
+.hotels, .popular {
+    background-color: var(--grey);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.blueStar {
+    color: var(--blue);
+}
+
+.greyStar {
+    color: var(--lightgrey);
+}
