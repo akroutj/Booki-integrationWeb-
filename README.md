@@ -1,4 +1,4 @@
-<img src="/path/to/images/logo/Booki@3x.png" alt="Logo Booki">
+![logoBooki](https://booki.mathisbarre.com/img/booki_logo.svg)
 
 
 
