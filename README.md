@@ -1,4 +1,4 @@
-![images\logo\Booki@3x.png]
+<img src="/path/to/images/logo/Booki@3x.png" alt="Logo Booki">
 
 
 
