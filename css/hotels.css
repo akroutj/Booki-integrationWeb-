@@ -30,6 +30,7 @@
     border: 5px solid var(--white);
     border-radius: 15px;
     box-shadow: 0 0 10px var(--lightgrey);
+    height: 260px;
 }
 
 .hotel-card img {

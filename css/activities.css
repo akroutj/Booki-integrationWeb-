@@ -10,7 +10,7 @@
 .activities-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 10 px repeat(4, 1fr);
+    /* grid-template-rows: 10 px repeat(4, 1fr); */
     grid-gap: 30px;
     margin-bottom: 30px;
 }
